@@ -1,0 +1,22 @@
+.stored-meme-image {
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.store-meme-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+  max-width: 70%;
+  align-self: center;
+}
+
+.store {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,50 @@
+.tabs {
+}
+
+.tab-buttons {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  align-self: center;
+  justify-content: center;
+}
+
+.tab-buttons .buttons {
+  border: none;
+  border-bottom: 4px solid black;
+  background-color: inherit;
+  color: whitesmoke;
+  height: 2.5rem;
+  /* min-width: 80%; */
+  width: 400px;
+}
+
+.tab-buttons .active {
+  border-bottom: 4px solid rgb(216, 27, 216);
+  /* transition: 2ms ;  */
+}
+
+.title{
+    text-align: center;
+    font-size:30px; font-weight:300; color:whitesmoke; letter-spacing:1px;
+    text-transform: uppercase;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.title:after,.title:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+
+.left-align{
+  align-self: flex-end;
+}
